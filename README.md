@@ -10,4 +10,4 @@
 
 
 ## 版权相关
-本作品采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可](http://creativecommons.org/licenses/by-nc-sa/4.0/)，相关内容已获得授权。
+本作品采用Creative Commons Attribution 3.0 Unported (CC BY 3.0) license，相关内容已获得授权。
