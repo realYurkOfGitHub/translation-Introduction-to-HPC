@@ -17,7 +17,7 @@
 - [代码链接](https://bitbucket.org/VictorEijkhout/scientific-computing-public/src/master/code/)
 - [附带资料](https://bitbucket.org/VictorEijkhout/scientific-computing-public/src/master/booksources/)
 
-## 知乎同步更新
+## 知乎专栏
 [专栏：高性能计算翻译计划](https://www.zhihu.com/column/c_1448674165109125120)
 
 ## 版权相关
