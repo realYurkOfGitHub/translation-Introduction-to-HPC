@@ -49,4 +49,4 @@
 高性能计算教材采用Creative Commons Attribution 3.0 Unported (CC BY 3.0) license，相关内容已获得原作者授权。
 
 <img src="https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/blob/main/第一部分：理论/graphics/ccby.jpg" width="200px">
-其他部分整理自网络，如有版权要求
+其他部分整理自网络，如有版权要求请联系本人
