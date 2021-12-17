@@ -30,7 +30,7 @@
 6. [高性能缩放](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/PPT)
 7. [高性能Unix](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/PPT)
 
-### HPC四卷
+### HPC 笔记四卷
 1. [硬件架构与基准测试](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/Notes%20for%20HPC)
 2. [集群功率与系统监控](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/Notes%20for%20HPC)
 3. [网络系统与存储系统](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/Notes%20for%20HPC)
