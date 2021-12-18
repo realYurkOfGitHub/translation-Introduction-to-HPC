@@ -1,1 +1,13 @@
-# part 4
+# 第四部分：Carpentry
+0. 第四部分序言：写在HPC前
+1. Unix简介
+2. 编译器和库
+3. Make与CMake
+4. 源码控制与Git
+5. 科学数据存储
+6. GNUplot
+7. 代码规范
+8. Debug
+9. C、Fortran交互
+10. 位操作
+11. 用于科学计算的LaTeX
