@@ -20,6 +20,15 @@
 5. [蒙特卡洛方法](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第二部分：应用)
 6. [机器学习](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第二部分：应用)
 
+### 第三部分：附录
+1. [线性代数](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第三部分：附录)
+2. [复杂度](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第三部分：附录)
+3. [偏微分方程](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第三部分：附录)
+4. [泰勒级数](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第三部分：附录)
+5. [最小化](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第三部分：附录)
+6. [图论](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第三部分：附录)
+7. [自动机理论](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第三部分：附录)
+8. [并行前缀](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第三部分：附录)
 
 ### PPT
 1. [高性能运算](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/PPT)
