@@ -30,6 +30,20 @@
 7. [自动机理论](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第三部分：附录)
 8. [并行前缀](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第三部分：附录)
 
+### 第四部分：Carpentry
+0. [第四部分序言：写在HPC前](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第四部分：CARPENTRY)
+1. [Unix简介](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第四部分：CARPENTRY)
+2. [编译器和库](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第四部分：CARPENTRY)
+3. [Make与CMake](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第四部分：CARPENTRY)
+4. [源码控制与Git](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第四部分：CARPENTRY)
+5. [科学数据存储](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第四部分：CARPENTRY)
+6. [GNUplot](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第四部分：CARPENTRY)
+7. [代码规范](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第四部分：CARPENTRY)
+8. [Debug](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第四部分：CARPENTRY)
+9. [C、Fortran交互](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第四部分：CARPENTRY)
+10. [位操作]()
+11. [用于科学计算的LaTeX](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/第四部分：CARPENTRY)
+
 ### PPT
 1. [高性能运算](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/PPT)
 2. [高性能图论](https://github.com/realYurkOfGitHub/translation-Introduction-to-HPC/tree/main/PPT)
