@@ -1,0 +1,99 @@
+% -*- latex -*-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%
+%%%% This text file is part of the source of 
+%%%% `Introduction to High-Performance Scientific Computing'
+%%%% by Victor Eijkhout, copyright 2012-2021
+%%%%
+%%%% This book is distributed under a Creative Commons Attribution 3.0
+%%%% Unported (CC BY 3.0) license and made possible by funding from
+%%%% The Saylor Foundation \url{http://www.saylor.org}.
+%%%%
+%%%% listing.tex : demo of the LaTeX listings package
+%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+
+\usepackage[pdftex]{hyperref}
+\usepackage{pslatex}
+
+
+%%%%
+%%%% Import the listings package
+%%%%
+\usepackage{listings,xcolor}
+
+%%%%
+%%%% Set a basic code style
+%%%% (see documentation for more options}
+%%%%
+\lstdefinestyle{reviewcode}{
+  belowcaptionskip=1\baselineskip, breaklines=true, frame=L,
+  xleftmargin=\parindent, showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{blue},
+  commentstyle=\color{red!60!black},
+  identifierstyle=\slshape\color{black},
+  stringstyle=\color{green!60!black}, columns=fullflexible,
+  keepspaces=true,tabsize=8,
+}
+\lstset{style=reviewcode}
+
+\lstset{emph={ %% MPI commands
+    MPI_Init,MPI_Initialized,MPI_Finalize,MPI_Finalized,MPI_Abort,
+    MPI_Comm_size,MPI_Comm_rank,
+    MPI_Send,MPI_Isend,MPI_Rsend,MPI_Irsend,MPI_Ssend,MPI_Issend,
+    MPI_Recv,MPI_Irecv,MPI_Mrecv,MPI_Sendrecv,MPI_Sendrecv_replace,
+  },emphstyle={\color{red!70!black}\bfseries}
+}
+\lstset{emph={[2] %% constants
+    MPI_COMM_WORLD,MPI_STATUS_IGNORE,MPI_STATUSES_IGNORE,MPI_STATUS_SIZE,
+    MPI_INT,MPI_INTEGER,
+  },emphstyle={[2]\color{green!40!black}}
+}
+\lstset{emph={[3] %% types
+    MPI_Aint,MPI_Comm,MPI_Count,MPI_Datatype,MPI_Errhandler,MPI_File,MPI_Group,
+  },emphstyle={[3]\color{yellow!30!brown}\bfseries},
+}
+
+\begin{document}
+\title{SSC 335: listings demo}
+\author{Victor Eijkhout}
+\date{today}
+\maketitle
+
+\section{C examples}
+
+\lstset{language=C}
+\begin{lstlisting}
+int main() {
+  MPI_Init();
+  MPI_Comm comm = MPI_COMM_WORLD;
+  if (x==y) 
+    MPI_Send( &x,1,MPI_INT,0,0,comm);
+  else
+    MPI_Recv( &y,1,MPI_INT,1,1,comm,MPI_STATUS_IGNORE);
+  MPI_Finalize();
+}
+\end{lstlisting}
+
+\section{Fortran examples}
+
+\lstset{language=Fortran}
+\begin{lstlisting}
+Program myprogram
+  Type(MPI_Comm) :: comm = MPI_COMM_WORLD
+  call MPI_Init()
+  if (.not. x==y ) then
+    call MPI_Send( x,1,MPI_INTEGER,0,0,comm);
+  else
+    call MPI_Recv( y,1,MPI_INTEGER,1,1,comm,MPI_STATUS_IGNORE)
+  end if
+  call MPI_Finalize()
+End Program myprogram
+\end{lstlisting}
+
+\end{document}

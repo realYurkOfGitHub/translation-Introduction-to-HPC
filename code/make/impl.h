@@ -1,0 +1,1 @@
+struct impl_struct {};
