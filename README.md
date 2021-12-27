@@ -2,7 +2,7 @@
 为 Eijkhout 教授的Introduction to HPC教材提供中文翻译、 PPT和Lab。
 > 本项目的原版教材地址可以在 [教程原文](https://tinyurl.com/vle394course)中下载，你还可以访问 Eijkhout 教授的[开源repository](https://bitbucket.org/VictorEijkhout/scientific-computing-public/src/master/)下载PPT、Lab源文件。
 
-## 引言：
+## 引言
 科学计算是一门涉及多个领域，对问题过程进行综合建模，并使用计算机求得定量结果的交叉学科。它将某一门具体的学科转变为数值计算问题，并高效构建数学中的解决办法。这清楚地表明了科学计算涉及的三个科学分支：
 
 - 应用数学：真实世界的数学建模。应用数学常常隐式地描述真实世界的运行规律，例如偏微分方程。为了取得实际的具体成果，我们需要采取一种建设性的办法。
@@ -14,6 +14,12 @@
 科学计算重点关注的是效率。虽然部分科学家仅仅以；“找到一种解决办法”作为研究目的，但在计算中，决方案往往需要时效性。基于此，本书中我们将非常具体地讨论算法和硬件的效率——因为高性能计算不仅是硬件上的高效实用，更有对算法本身的研究。
 
 本书涵盖了一名合格的计算科学家需要掌握的基础知识，可以作为研究生或高级本科生的教材；或者您也可以把它作为额外的参考，也可以当作阅读练习的材料。
+
+Victor Eijkhout eijkhout@tacc.utexas.edu Research Scientist
+
+Texas Advanced Computing Center
+
+The University of Texas at Austin
 
 ## 课程目录：
 ### 第一部分：理论
