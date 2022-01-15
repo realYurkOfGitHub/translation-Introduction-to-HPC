@@ -2,6 +2,9 @@
 为 Eijkhout 教授的Introduction to HPC教材提供中文翻译、 PPT和Lab。
 > 本项目的原版教材地址可以在 [教程原文](https://tinyurl.com/vle394course)中下载，你还可以访问 Eijkhout 教授的[开源repository](https://bitbucket.org/VictorEijkhout/scientific-computing-public/src/master/)下载PPT、Lab源文件。
 
+## 全书翻译完毕
+- PDF下载地址：https://pan.baidu.com/s/1V1UbRkTWZ3SaxXFZHd06HA 提取码：4vPX 
+
 ## 引言
 科学计算是一门涉及多个领域，对问题过程进行综合建模，并使用计算机求得定量结果的交叉学科。它将某一门具体的学科转变为数值计算问题，并高效构建数学中的解决办法。这清楚地表明了科学计算涉及的三个科学分支：
 
